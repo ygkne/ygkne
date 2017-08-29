@@ -1,5 +1,8 @@
 #include<stdio.h>
-#include<stdlib>
+#include<stdlib.h>
+#include<time.h>
+
+
 
 void desordenar (char cadena[]){
 	//definitions
@@ -43,7 +46,7 @@ void generar (char cadena[], int maximo){
 
 
 int main{
-
+	srand(time(NULL));
 	int num=2;
 	while(num<5){
 		printf("Numero de caracteres que necesitas: ");
