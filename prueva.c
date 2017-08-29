@@ -60,3 +60,40 @@ int main{
 system("PAUSE");
 return 0;
 }
+---
+	
+#include<stdio.h>
+#include<stdlib>
+
+int nota (int a, int b, int final)
+	
+	if (0.2*(a+b) + 0.6*final > final)
+		return 0.2*(a+b) + 0.6*final;
+	return final;
+	
+}
+
+
+
+
+int main{
+	
+	printf("Nota 1er parcial: ");
+	scanf("%d", &primero);
+
+	printf("Nota 2o parcial: ");
+
+	scanf("%d", &segundo);
+	printf("Nota examen final: ");
+	scanf("%d", &final);
+
+	
+
+	printf("La nota final es: %d." nota(primero, segundo, final));
+	
+
+	
+	
+system("PAUSE");
+return 0;
+}
