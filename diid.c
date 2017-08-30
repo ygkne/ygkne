@@ -18,77 +18,75 @@ char calcular_letra (int n){
 	switch (n%23){
 		
 	    case 0:
-	      letra=''
+	      letra='T'
 	      break;
 	    case 1:
-	      letra=''
+	      letra='R'
 	      break;
 	    case 2:
-	      letra=''
+	      letra='W'
 	      break;
 	    case 3:
-	       letra=''
+	      letra='A'
 	      break;
 	    case 4:
-	      letra=''
+	      letra='G'
 	      break;
 	    case 5:
-	      letra=''
+	      letra='M'
 	      break;
 	    case 6:
-	      letra=''
+	      letra='Y'
 	      break;
 	    case 7:
-	      letra=''
+	      letra='F'
 	      break;
 	    case 8:
- 	     letra=''
+ 	     letra='P'
  	     break;
  	    case 9:
-	      letra=''
-	      break;
+	     letra='D'
+	     break;
 	    case 10:
-	      letra=''
-	      break;
+	     letra='X'
+	     break;
 	    case 11:
-	      letra=''
-	      break;
+	     letra='B'
+	     break;
 	    case 12:
-	      letra=''
-	      break;
+	     letra='N'
+	     break;
  	    case 13:
-	      letra=''
-	      break;
+	     letra='J'
+	     break;
 	    case 14:
- 	     letra=''
+ 	     letra='Z'
  	     break;
 	    case 15:
-  	     letra=''
+  	     letra='S'
   	     break;
 	    case 16:
-	     letra=''
+	     letra='Q'
       	     break;
 	    case 17:
-	     letra=''
-	      break;
+	     letra='V'
+	     break;
 	    case 18:
-	      letra=''
-	      break;
+	     Letra='H'
+	     break;
 	    case 19:
-	      letra=''
-	      break;
+	     letra='L'
+	     break;
 	    case 20:
-	      letra=''
-	      break;
+	     letra='C'
+	     break;
 	    case 21:
-	      letra=''
-	      break;
-	    case 22:
-	      letra=''
-	      break;
-	    case 23:
-	      letra=''
-	      break;
+	     letra='K'
+	     break;
+	    default:
+	     letra='E'
+	     break;
+
 		
 	return letra;
 		
@@ -138,26 +136,3 @@ system("PAUSE");
 return 0;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
