@@ -1,3 +1,10 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+
+setlocale(LC_ALL, "spanish");
+
+
 bool DNI_correcto (int n){
 	
 	if (n>= 10000000 && n<= 99999999)
