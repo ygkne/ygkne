@@ -5,3 +5,6 @@
 
 ##### [`Marks`](https://github.com/ygkne/ygkne/blob/master/prueva.c) 
 
+##### [`Qué día es...?`](https://github.com/ygkne/ygkne/blob/master/prueva.c) 
+
+##### [`IND`](https://github.com/ygkne/ygkne/blob/master/prueva.c) 
